@@ -25,7 +25,7 @@ function App() {
   }
 
   const currencySymbolTwoChange = currencySymbolTwo => {
-    setAmountTwo(1)
+    setAmountTwo(amountTwo)
     setAmountOne(amountTwo * currencyRates[currencySymbolTwo])
     setCurrencySymbolTwo(currencySymbolTwo)
   }
